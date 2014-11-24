@@ -1,0 +1,25 @@
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
+cinst Firefox
+cinst tor-browser
+cinst flashplayeractivex
+cinst flashplayerplugin
+
+cinst SublimeText3
+
+cinst git
+cinst nodejs
+cinst ruby
+cinst python
+cinst java.jdk
+
+cinst Compass
+cinst filezilla
+cinst putty
+cinst 7zip
+cinst fiddler
+
+cinst skype
+cinst hexchat
+cinst gimp
+cinst teamviewer
