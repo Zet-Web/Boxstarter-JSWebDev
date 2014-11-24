@@ -1,9 +1,11 @@
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 
+cinst google-chrome-x64
 cinst Firefox
 cinst tor-browser
 cinst flashplayeractivex
 cinst flashplayerplugin
+cinst Silverlight
 
 cinst SublimeText3
 
@@ -12,6 +14,7 @@ cinst nodejs
 cinst ruby
 cinst python
 cinst java.jdk
+cinst php
 
 cinst Compass
 cinst filezilla
@@ -23,3 +26,15 @@ cinst skype
 cinst hexchat
 cinst gimp
 cinst teamviewer
+cinst adobereader
+cinst mongodb
+cinst PhantomJS
+cinst Console2
+cinst autohotkey
+cinst wireshark
+cinst imagemagick
+cinst VirtualCloneDrive
+cinst virtualbox
+
+# Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
+$env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
