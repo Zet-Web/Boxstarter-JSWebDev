@@ -73,17 +73,15 @@ return
 FileRecycleEmpty
 return
 
-;Open downloads when I press #j 
 #q::
-;Run C:\Users\admin\Downloads 
 Run C:\projects
 return
 
 ^!n::
-IfWinExist Untitled - Notepad
+IfWinExist Untitled - Subl
 	WinActivate
 else
-	Run Notepad
+	Run Subl
 return
 
 ;prevent touchpad while typing
