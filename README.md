@@ -15,6 +15,8 @@
 	%AppData%\npm-cache
 	C:\Users\admin\AppData\Roaming\npm-cache
 
+	$ npm config get prefix
+
 	win-r: control.exe sysdm.cpl,System,3
 
 	C:\ProgramData\chocolatey\lib\nodejs.commandline.0.10.33\tools\node_modules
@@ -23,6 +25,7 @@
 
 	C:\ProgramData\chocolatey\bin;C:\Users\admin\AppData\Roaming\Boxstarter;C:\Program Files\Sublime Text 3;C:\tools\PhantomJS;C:\PROGRA~2\Oracle\VirtualBox;C:\ProgramData\chocolatey\lib\nodejs.commandline.0.10.33\tools;C:\Program Files (x86)\Git\bin
 
+	C:\ProgramData\chocolatey\lib\nodejs.commandline.0.10.33\tools;C:\ProgramData\chocolatey\lib\nodejs.commandline.0.10.33\tools\node_modules
 
 #Sublime Text Editor (syntax for sass and autohotkey)
 	https://sublime.wbond.net/installation

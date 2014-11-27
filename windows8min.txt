@@ -1,0 +1,29 @@
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
+cinst google-chrome-x64
+cinst Firefox
+cinst flashplayeractivex
+cinst flashplayerplugin
+cinst Silverlight
+
+cinst git
+cinst nodejs
+cinst ruby
+cinst python
+cinst java.jdk
+cinst php
+
+cinst filezilla
+cinst putty
+cinst 7zip
+
+cinst skype
+cinst teamviewer
+cinst adobereader
+cinst Console2
+cinst autohotkey
+cinst VirtualCloneDrive
+
+#update so that the below is added to user vars
+# Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
+$env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin;C:\ProgramData\chocolatey\lib\nodejs.commandline.0.10.33\tools"

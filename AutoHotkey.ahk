@@ -73,7 +73,7 @@ return
 FileRecycleEmpty
 return
 
-#q::
+#`::
 Run C:\projects
 return
 
@@ -81,7 +81,7 @@ return
 IfWinExist Untitled - Subl
 	WinActivate
 else
-	Run Subl
+	Run Subl c:\projects
 return
 
 ;prevent touchpad while typing
