@@ -38,6 +38,7 @@ cinst virtualbox
 
 cinst obs
 cinst OpenHardwareMonitor
+cinst vlc
 
 #update so that the below is added to user vars
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
