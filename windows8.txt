@@ -27,7 +27,7 @@ cinst hexchat
 cinst gimp
 cinst teamviewer
 cinst adobereader
-cinst mongodb
+#cinst mongodb
 cinst PhantomJS
 cinst Console2
 cinst autohotkey
@@ -39,6 +39,7 @@ cinst virtualbox
 cinst obs
 cinst OpenHardwareMonitor
 cinst vlc
+cinst driverbooster
 
 #update so that the below is added to user vars
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
