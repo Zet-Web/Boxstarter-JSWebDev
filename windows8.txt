@@ -2,12 +2,12 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 
 cinst google-chrome-x64
 cinst Firefox
-cinst tor-browser
 cinst flashplayeractivex
 cinst flashplayerplugin
 cinst Silverlight
 
 cinst SublimeText3
+cinst atom
 
 cinst git
 cinst nodejs
@@ -42,4 +42,4 @@ cinst vlc
 
 #update so that the below is added to user vars
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
-$env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
+$env:PSModulePath = $env:PSModulePath + ";C:\Program Files\Sublime Text 3;C:\ProgramData\chocolatey\lib\nodejs.commandline.0.10.35\tools;C:\Program Files (x86)\Git\bin"
