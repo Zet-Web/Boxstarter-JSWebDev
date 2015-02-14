@@ -13,6 +13,7 @@ cinst git
 cinst nodejs
 cinst ruby
 cinst python
+cinst python2
 cinst java.jdk
 cinst php
 
