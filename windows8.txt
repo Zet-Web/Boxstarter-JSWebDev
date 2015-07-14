@@ -1,14 +1,5 @@
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 
-cinst google-chrome-x64
-cinst Firefox
-cinst flashplayeractivex
-cinst flashplayerplugin
-cinst Silverlight
-
-cinst SublimeText3
-cinst atom
-
 cinst git
 cinst nodejs
 cinst ruby
@@ -21,26 +12,13 @@ cinst Compass
 cinst filezilla
 cinst putty
 cinst 7zip
-cinst fiddler
 
-cinst skype
 cinst hexchat
-cinst gimp
-cinst teamviewer
-cinst adobereader
-#cinst mongodb
-cinst PhantomJS
 cinst Console2
-cinst autohotkey
-cinst wireshark
 cinst imagemagick
-cinst VirtualCloneDrive
-cinst virtualbox
 
-cinst obs
 cinst OpenHardwareMonitor
 cinst vlc
-cinst driverbooster
 
 #update so that the below is added to user vars
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
